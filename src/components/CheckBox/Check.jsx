@@ -51,7 +51,7 @@ const Share = ({ treeDataRole }) => {
     <div>
       <form onSubmit={handleSubmit}>
         <div className='container mt-3' style={{ maxWidth: 500, backgroundImage:`url(${background})`, backgroundRepeat: 'no-repeat',backgroundSize:'auto'}}>
-          {data.map((item) => {
+     1     {data.map((item) => {
             return (
               <div key={item.id}>
                 <span style={{ color: '#2db3a7' }}>{item.module}</span>
@@ -68,7 +68,7 @@ const Share = ({ treeDataRole }) => {
                       />
                       <label
                         className='custom-control-label mx-2'
-                        htmlFor={elt.module}
+                        htmlFor={elt.id}
                       >
                         {elt.module}
                       </label>
