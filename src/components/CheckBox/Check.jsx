@@ -12,9 +12,6 @@ import {
 } from '../../redux/adminPage/adminSlice';
 
 deepdash(_);
-
-
-
 const Share = ({ treeDataRole }) => {
   const dispatch = useDispatch();
 
