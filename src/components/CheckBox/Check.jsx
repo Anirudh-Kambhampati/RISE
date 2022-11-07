@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import background from '../../images/SEM.jpeg'
 import {
   getAdminTreeData,
   setUserTreeData,
@@ -50,8 +49,8 @@ const Share = ({ treeDataRole }) => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div className='container mt-3' style={{ maxWidth: 500, backgroundImage:`url(${background})`, backgroundRepeat: 'no-repeat',backgroundSize:'auto'}}>
-     1     {data.map((item) => {
+        <div className='container mt-3' style={{ maxWidth: 500 }}>
+          {data.map((item) => {
             return (
               <div key={item.id}>
                 <span style={{ color: '#2db3a7' }}>{item.module}</span>

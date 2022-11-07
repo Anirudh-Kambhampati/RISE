@@ -19,6 +19,7 @@ const RightContent = ({ content={} }) => {
             style={{ backgroundColor: "black" }}
           >
             <p style={{ color: "white" }}>{content.module}</p>
+            
             <img src={ipImg} alt="logo" />
             <p style={{ color: "white" }}>
               Status: <b style={{ color: "green" }}>Active</b>
